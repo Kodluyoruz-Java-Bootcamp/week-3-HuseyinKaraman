@@ -1,0 +1,1004 @@
+{
+	"info": {
+		"_postman_id": "13fa8a71-bc03-4994-b30b-569eda2e0803",
+		"name": "week3-myemlakcepte-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "24662691"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/users",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "userId",
+						"value": "100",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"pelin\",\r\n    \"mail\": \"pelin@deneme.com\",\r\n    \"password\": \"S3cret\",\r\n    \"type\": \"INDIVIDUAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "100",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/users",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "userId",
+						"value": "100",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"sami\",\r\n    \"mail\": \"sami@deneme.com\",\r\n    \"password\": \"S3cret\",\r\n    \"type\": \"INDIVIDUAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "100",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/users",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "userId",
+						"value": "100",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Cem\",\r\n    \"mail\": \"cem@deneme.com\",\r\n    \"password\": \"S3cret\",\r\n    \"type\": \"INDIVIDUAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "100",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/users",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "userId",
+						"value": "100",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Hüseyin\",\r\n    \"mail\": \"hsy@deneme.com\",\r\n    \"password\": \"S3cret\",\r\n    \"type\": \"INDIVIDUAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "100",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"satılık villa\",\r\n    \"userId\":  100,\r\n    \"province\": \"izmir\",\r\n    \"district\": \"buca\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"SALE\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"satılık villa\",\r\n    \"userId\":  101,\r\n    \"province\": \"istanbul\",\r\n    \"district\": \"bakırköy\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"SALE\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"satılık villa\",\r\n    \"userId\":  101,\r\n    \"province\": \"istanbul\",\r\n    \"district\": \"esenler\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"SALE\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"kiralık villa\",\r\n    \"userId\":  100,\r\n    \"province\": \"istanbul\",\r\n    \"district\": \"esenler\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"RENT\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"satılık villa\",\r\n    \"userId\":  100,\r\n    \"province\": \"istanbul\",\r\n    \"district\": \"esenler\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"SALE\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"satılık villa\",\r\n    \"userId\":  102,\r\n    \"province\": \"ANKARA\",\r\n    \"district\": \"çankaya\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"SALE\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"kiralık villa\",\r\n    \"userId\":  102,\r\n    \"province\": \"ANKARA\",\r\n    \"district\": \"çankaya\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"RENT\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"kiralık villa\",\r\n    \"userId\":  102,\r\n    \"province\": \"izmir\",\r\n    \"district\": \"buca\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"RENT\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"satılık villa\",\r\n    \"userId\":  102,\r\n    \"province\": \"izmir\",\r\n    \"district\": \"buca\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"SALE\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Kiralık villa\",\r\n    \"userId\":  103,\r\n    \"province\": \"sivas\",\r\n    \"district\": \"merkez\",\r\n    \"status\": \"ACTIVE\",\r\n    \"categoryType\": \"RENT\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Kiralık villa\",\r\n    \"userId\":  103,\r\n    \"province\": \"sivas\",\r\n    \"district\": \"merkez\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"RENT\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"satılık villa\",\r\n    \"userId\":  103,\r\n    \"province\": \"sivas\",\r\n    \"district\": \"merkez\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"SALE\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"satılık villa\",\r\n    \"userId\":  100,\r\n    \"province\": \"izmir\",\r\n    \"district\": \"buca\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"SALE\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "userId",
+						"value": "100",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "100",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes/ankaRA,izmir,istanbul/size",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"satılık villa\",\r\n    \"userId\":  100,\r\n    \"province\": \"izmir\",\r\n    \"district\": \"buca\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"SALE\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes/ankaRA,izmir,istanbul/size"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes/istanbul/esenler,bakırköy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"satılık villa\",\r\n    \"userId\":  100,\r\n    \"province\": \"izmir\",\r\n    \"district\": \"buca\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"SALE\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes/istanbul/esenler,bakırköy"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes/istanbul/esenler",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"satılık villa\",\r\n    \"userId\":  100,\r\n    \"province\": \"izmir\",\r\n    \"district\": \"buca\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"SALE\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes/istanbul/esenler"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes/istanbul/bakırköy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"satılık villa\",\r\n    \"userId\":  100,\r\n    \"province\": \"izmir\",\r\n    \"district\": \"buca\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"SALE\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes/istanbul/bakırköy"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes/showcase/sivas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"satılık villa\",\r\n    \"userId\":  100,\r\n    \"province\": \"izmir\",\r\n    \"district\": \"buca\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"SALE\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes/showcase/sivas"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes/showcase/istanbul",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"satılık villa\",\r\n    \"userId\":  100,\r\n    \"province\": \"izmir\",\r\n    \"district\": \"buca\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"SALE\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes/showcase/istanbul"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/realtyes/ankaRA,izmir,istanbul/salesize",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"satılık villa\",\r\n    \"userId\":  100,\r\n    \"province\": \"izmir\",\r\n    \"district\": \"buca\",\r\n    \"status\": \"PASSIVE\",\r\n    \"categoryType\": \"SALE\",\r\n    \"propertyType\": \"RESIDENTAL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/realtyes/ankaRA,izmir,istanbul/salesize"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/message/send/100/101",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "userId",
+						"value": "100",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Info\",\r\n    \"content\": \"Merhaba ilan hakkında bilgi alabilitmiyim?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/messages/100/101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"messages",
+						"100",
+						"101"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "100",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/message/send/100/102",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "userId",
+						"value": "100",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Info\",\r\n    \"content\": \"merhaba?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/messages/101/100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"messages",
+						"101",
+						"100"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "100",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/message/send/102/101",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "userId",
+						"value": "100",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Info\",\r\n    \"content\": \"merhaba?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/messages/102/101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"messages",
+						"102",
+						"101"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "100",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/message",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "userId",
+						"value": "100",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Info\",\r\n    \"content\": \"merhaba?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/messages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"messages"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "100",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/message/update/1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "userId",
+						"value": "100",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Info\",\r\n    \"content\": \"Merhaba bilgi alabilirmiyim?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/messages/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"messages",
+						"1"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "100",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/message/delete/100/1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "userId",
+						"value": "100",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Info\",\r\n    \"content\": \"Merhaba bilgi alabilirmiyim?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/messages/delete/100/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"messages",
+						"delete",
+						"100",
+						"1"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "100",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/message Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "userId",
+						"value": "100",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Info\",\r\n    \"content\": \"merhaba?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/messages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"messages"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "100",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/users Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "userId",
+						"value": "100",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "100",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/banners",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "userId",
+						"value": "100",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ilanNo\": 1000,\r\n    \"adet\":   1,\r\n    \"telNo1\" : \"12345678\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/banners",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"banners"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "100",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

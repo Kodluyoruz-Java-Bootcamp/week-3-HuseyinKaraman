@@ -1,0 +1,319 @@
+{
+	"info": {
+		"_postman_id": "ffbfdc91-64bb-4748-bd2a-254b3cf5ec44",
+		"name": "week3-mymedium-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "24662691"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"username\" : \"pelin\", \r\n     \"email\":\"pelin\", \r\n     \"password\":\"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/users"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"username\" : \"Hüseyin\", \r\n     \"email\":\"karaman\", \r\n     \"password\":\"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/users"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"username\" : \"cem\", \r\n     \"email\":\"dirman\", \r\n     \"password\":\"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/users"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"username\" : \"safak\", \r\n     \"email\":\"safak\", \r\n     \"password\":\"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/users"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"username\" : \"pelin\", \r\n     \"email\":\"pelin\", \r\n     \"password\":\"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/users"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/users/followById/1/2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"username\" : \"pelin\", \r\n     \"email\":\"pelin\", \r\n     \"password\":\"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/users/followById/1/2"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/users Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"username\" : \"pelin\", \r\n     \"email\":\"pelin\", \r\n     \"password\":\"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/users"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/blogs",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"tag\":\"React\",\r\n     \"title\":\"Hello Redux\",\r\n     \"userId\":1,\r\n     \"status\": \"PUBLISHED\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/blogs"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/blogs",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"tag\":\"JS\",\r\n     \"title\":\"Hello JS\",\r\n     \"userId\":3,\r\n     \"status\": \"TASK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/blogs"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/blogs",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"tag\":\"C++\",\r\n     \"title\":\"Hello C++\",\r\n     \"userId\":3,\r\n     \"status\": \"TASK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/blogs"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/blogs",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"tag\":\"Java\",\r\n     \"title\":\"Hello world\",\r\n     \"userId\":1,\r\n     \"status\": \"TASK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/blogs"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/blogs/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"tag\":\"C++\",\r\n     \"title\":\"Hello C++\",\r\n     \"userId\":3,\r\n     \"status\": \"TASK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/blogs/1"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/blogs/3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"tag\":\"C++\",\r\n     \"title\":\"Hello C++\",\r\n     \"userId\":3,\r\n     \"status\": \"TASK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/blogs/3"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/users/subscribe/1/java",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "localhost:8080/users/subscribe/1/java"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/users/subscribe/1/c++",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "localhost:8080/users/subscribe/1/c++"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/users/subscribe/2/React",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "localhost:8080/users/subscribe/2/React"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/users/subscribe/3/JS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "localhost:8080/users/subscribe/3/JS"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/users"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/users/3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"username\" : \"Hüseyin\", \r\n     \"email\":\"karaman\", \r\n     \"password\":\"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/users/3"
+			},
+			"response": []
+		}
+	]
+}
